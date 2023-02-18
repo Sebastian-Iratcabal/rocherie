@@ -1,22 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="./imagenes/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>Rocherie</title>
+    </head>
+
 <body>
     <header>
-
+        <div class="fondoheader">
+            <a href="index.html">
+                <img src="./imagenes/isologotipo.png" alt="Logo Rocherie">
+            </a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="./pages/tortas.html">Tortas</a></li>
+                <li><a href="./pages/especiales.html">Especiales</a></li>
+                <li><a href="./pages/boxes.html">Boxes</a></li>
+                <li><a href="./pages/chocolates.html">Chocolates</a></li>
+                <li><a href="./pages/conocenos.html">Conocenos</a></li>
+                <li><a href="./paginas/contactanos.html">Contactanos</a></li>
+            </ul>
+        </nav>
     </header>
     
     <main>
 
+    <!-- Bienvenidos -->
+    <h1 class="animate__animated animate__bounce animate__zoomInDown">¡Bienvenidos!</h1>
+
+    <!-- 3 imágenes principales -->
+        <div class="flex-principal">
+            <div class="principal-item"><img class="banner" src="./imagenes/tortas.png" alt="Tortas"></div>
+            <div class="principal-item"><img class="banner" src="./imagenes/macarons.png" alt="Macarrones"></div>
+            <div class="principal-item"><img class="banner" src="./imagenes/pinata.png" alt="Torta Piñata"></div>
+        </div>
+
+    <!-- Galería de Tentaciones -->
+        <div class="titlo-tentaciones">
+            <h2>Galería de tentaciones</h2>
+            <p>Te proponemos distintas opciones para completar tu evento</p>    
+        </div> 
+
+        <section class="galeria">
+            <div class="galeria-item">
+                <a href="./pages/especiales.html">
+                    <img src="./imagenes/tartas.png" alt="Tartas">
+                </a>
+            </div>
+            <div class="galeria-item">
+                <a href="./pages/especiales.html">
+                    <img src="./imagenes/cakepop.png" alt="Tartas">
+                </a>
+            </div>
+            <div class="galeria-item">
+                <a href="./pages/especiales.html">
+                    <img src="./imagenes/cupcakes.png" alt="Tartas">
+                </a>
+            </div>
+            <div class="galeria-item">
+                <a href="./pages/especiales.html">
+                    <img src="./imagenes/desayunos.png" alt="Tartas">
+                </a>
+            </div>
+            <div class="galeria-item">
+                <a href="./pages/especiales.html">
+                    <img class="banner" src="./imagenes/icepop.png" alt="Tartas">
+                </a>
+            </div>
+            <div class="galeria-item">
+                <a href="./pages/especiales.html">
+                    <img src="./imagenes/shots.png" alt="Tartas">
+                </a>
+            </div>
+        </section>
+
+
+    <!-- Línea sección -->
+
+        <div class="linea-seccion"></div>
+
+    <!-- Universo Rocherie -->
+        <div class="universo">
+            <img src="./imagenes/universo.jpg">
+            <div class="universo-item">
+                <h2>Univeso Rocherie</h2>
+                <p>Creando dulces experiencias</p>
+                </br>
+                <a>
+                    <button class="boton">+ Conocenos</button>
+                </a>
+            </div>
+        </div>
+
+
+    <!-- Línea sección -->
+
+        <div class="linea-seccion"></div>
+
+    <!-- Contactanos -->        
+        <section>
+            <div class="contactanos">
+                <a href="./paginas/contactanos.html">
+                    <button class="boton">+ Contactanos</button>
+                </a>
+            </div>
+        </section>
+
+    <!-- Línea sección -->
+
+        <div class="linea-seccion"></div>
+
     </main>
 
-    <footer>
-        
+    <!-- Footer -->    
+    <footer class="flex-footer">
+        <div class="logo-footer">
+            <nav id="item-footer">
+                <ul>
+                    <li><a href="./pages/contactanos.html">Contactanos</a></li>
+                    <li><a href="./pages/preguntas.html">Preguntas Frecuentes</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="logo-footer">
+            <a href="index.html">
+                <img src="./imagenes/isologotipow.png" alt="Logo Rocherie" class="logowhite">
+            </a>
+            <p>Copyright © 2023 | Todos los derechos reservados</p>
+        </div>
     </footer>
 </body>
+
 </html>
