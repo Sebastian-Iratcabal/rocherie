@@ -6,6 +6,7 @@
 
 h1 {
     font-family: 'Poppins', sans-serif;
+    font-weight: bold; 
     font-size: 40px;
     color: #E977AC;
     text-align: center;
@@ -115,6 +116,7 @@ footer {
 .navbar-toggler {
     border: solid white;
 }
+
 
 /* 3 imagenes principales */
 
