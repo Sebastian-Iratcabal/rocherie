@@ -74,11 +74,11 @@ footer {
 }
 
 .fondoheader img {
-    width: 200px;
+    width: 250px;
 }
 
 .menu {
-    background-image: radial-gradient(circle, #E977AC, #FFDCF4);
+    background-image: linear-gradient(to bottom right, #E977AC, #FFDCF4);
 }
 
 .menu ul {
@@ -110,6 +110,10 @@ footer {
     background-color: white;
     border-radius: 5px;
     color: #E977AC;
+}
+
+.navbar-toggler {
+    border: solid white;
 }
 
 /* 3 imagenes principales */
