@@ -130,8 +130,7 @@ footer {
 .flex-principal .principal-item {
     width: 2fr;
     height: 100%;
-   padding: 0px 10px 0px 10px;
-    
+    padding: 0px 10px 30px 10px;
 }
 
 .principal-item img{
@@ -140,7 +139,7 @@ footer {
 
 /* Galería de tentaciones */
 
-.titlo-tentaciones {
+.titulo-tentaciones {
     padding: 30px;
 }    
 
@@ -173,43 +172,89 @@ footer {
 
 /* Universo Rocherie */
 
-.imguniverso {
-    width: 100%;
-    min-width: 313px;
-    min-height: 217px;
+.cajauniverso {
+    margin: 30px 0px 30px 0px;
 }
 
+.imguniverso {
+    width: 100%;
+}
 
-
-
-
-
-
-
-.universo {
+.contenidouniverso {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    height: 500px;
-    margin: 20px;
 }
 
-.universo img {
-    width: 50%;
-    min-width: 313px;
-    min-height: 217px;
- 
-}
-
-.universo .universo-item {
+.contenidouniverso .universo-item {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
+    padding: 50px;
 }
 
+
+/* Cuadro de texto + 2 Imagenes (secciones) */
+
+.cajasecciones {
+    margin: 30px 0px 30px 0px;
+}
+
+.imgsecciones {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contenidosecciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.contenidosecciones .secciones-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+}
+
+.secciones-item {
+    border: #E977AC solid;
+    border-radius: 10px;
+}
+
+/* Galeria de tortas tradicionales */
+
+.tradicionales-secciones {
+    margin: 30px 0px 30px 0px;
+}
+
+.img-seccion-tradicionales {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contenido-tradicionales {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contenido-tradicionales h4 {
+    padding: 20px 0px 0px 0px;
+}
+
+.contenido-tradicionales p {
+    padding: 0px 0px 20px 0px;
+}
 
 /* Contactanos */
 
@@ -327,7 +372,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 900px;
     background-color: #E977AC;
     padding: 30px;
     margin: 0px auto 50px auto;
@@ -335,7 +380,7 @@ footer {
 }
 
 .campos {
-    width: 500px;
+    width: 600px;
     padding: 10px;
     margin: 5px;
     border: 1px solid;
@@ -362,3 +407,14 @@ footer {
     font-size: 14px;
     color: white;
 }
+
+
+
+/* Media Query */
+
+@media (max-width: 756px) {
+.flex-principal .principal-item {
+    padding: 20px 10px 0px 10px;
+}
+}
+
