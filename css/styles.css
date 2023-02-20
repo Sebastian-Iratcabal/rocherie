@@ -418,3 +418,19 @@ footer {
 }
 }
 
+/* Media Query Formulario */
+
+@media (max-width: 756px) {
+.formulario {
+    width: 100%;
+    padding: 5px;
+}
+}
+
+@media (max-width: 756px) {
+.campos {
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+}
+}
