@@ -196,6 +196,41 @@ footer {
     padding: 50px;
 }
 
+
+/* Cuadro de texto + 2 Imagenes (secciones) */
+
+.cajasecciones {
+    margin: 30px 0px 30px 0px;
+}
+
+.imgsecciones {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contenidosecciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.contenidosecciones .secciones-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+}
+
+.secciones-item {
+    border: #E977AC solid;
+    border-radius: 10px;
+}
+
+
 /* Contactanos */
 
 .contactanos {
@@ -357,3 +392,4 @@ footer {
     padding: 20px 10px 0px 10px;
 }
 }
+
