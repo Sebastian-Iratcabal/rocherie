@@ -175,6 +175,31 @@ footer {
     border-radius: 10px;
 }
 
+/* Conocenos - imagen de fondo */
+
+.creadores h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold; 
+    font-size: 40px;
+    color: #E977AC;
+    text-align: center;
+    padding: 200px 0px 0px 0px;
+}
+
+.creadores {
+    background-image: url(../imagenes/fondo.png);
+    background-repeat: repeat-y;
+    width: 100%;
+}
+
+.cajauniverso .valores{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cajauniverso .valores img{
+    border-radius: 10px;
+}
 
 /* Universo Rocherie */
 
