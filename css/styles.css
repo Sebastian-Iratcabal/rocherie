@@ -169,6 +169,12 @@ footer {
     transform: scale(1.1 , 1.1);
 }
 
+/* Carousel */
+
+.carousel-item img {
+    border-radius: 10px;
+}
+
 
 /* Universo Rocherie */
 
@@ -409,7 +415,6 @@ footer {
 }
 
 
-
 /* Media Query */
 
 @media (max-width: 756px) {
@@ -434,3 +439,5 @@ footer {
     margin: 5px;
 }
 }
+
+
