@@ -130,8 +130,7 @@ footer {
 .flex-principal .principal-item {
     width: 2fr;
     height: 100%;
-   padding: 0px 10px 0px 10px;
-    
+    padding: 0px 10px 30px 10px;
 }
 
 .principal-item img{
@@ -140,7 +139,7 @@ footer {
 
 /* Galería de tentaciones */
 
-.titlo-tentaciones {
+.titulo-tentaciones {
     padding: 30px;
 }    
 
@@ -173,30 +172,29 @@ footer {
 
 /* Universo Rocherie */
 
-.universo {
+.cajauniverso {
+    margin: 30px 0px 30px 0px;
+}
+
+.imguniverso {
+    width: 100%;
+}
+
+.contenidouniverso {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    height: 500px;
-    margin: 20px;
 }
 
-.universo img {
-    width: 50%;
-    min-width: 313px;
-    min-height: 217px;
- 
-}
-
-.universo .universo-item {
+.contenidouniverso .universo-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
+    padding: 50px;
 }
-
 
 /* Contactanos */
 
@@ -348,4 +346,14 @@ footer {
 .formulario p {
     font-size: 14px;
     color: white;
+}
+
+
+
+/* Media Query */
+
+@media (max-width: 756px) {
+.flex-principal .principal-item {
+    padding: 20px 10px 0px 10px;
+}
 }
