@@ -123,7 +123,6 @@ footer {
 .flex-principal {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -156,7 +155,6 @@ footer {
 
 .galeria-item {
     width: 150px;
-    height: 204px;
     margin: 5px;
     transition: all 0.3s ease-in;
 }
@@ -224,7 +222,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 50px;
+
 }
 
 
@@ -439,14 +437,77 @@ footer {
     color: white;
 }
 
+/* Preguntas Frecuentes */
 
-/* Media Query */
 
-@media (max-width: 756px) {
+
+
+/* Media Query Mobile 3 imagenes principales */
+
+@media (max-width: 819px) {
+.flex-principal {
+    flex-direction: column;
+}
+}
+
+@media (max-width: 819px) {
 .flex-principal .principal-item {
-    padding: 20px 10px 0px 10px;
+    padding: 0px 0px 30px 0px;
+}
+}    
+
+@media (max-width: 819px) {
+.principal-item img{
+    width: 100%;
 }
 }
+
+/* Media Query Tablet 3 imagenes principales */
+
+@media (min-width: 820px) {
+.flex-principal {
+    flex-direction: row;
+}
+}
+    
+@media (min-width: 820px) {
+.flex-principal .principal-item {
+    padding: 0px 10px 30px 10px;
+}
+}    
+    
+@media (min-width: 820px) {
+.principal-item img{
+    width: 100%;
+}
+}
+
+/* Media Query Tablet Galeria de Tentaciones */
+
+@media (min-width: 820px) {
+.galeria {
+    flex-wrap: nowrap;
+}
+}
+
+@media (min-width: 820px) {
+.galeria-item img {
+    width: 100%;
+}
+}
+
+/* Media Query Mobile Universo Rocherie */
+
+@media (max-width: 767px) {
+.contenidouniverso {
+    padding: 50px;
+
+}
+}
+
+
+
+
 
 /* Media Query Formulario */
 
