@@ -28,6 +28,11 @@ h4 {
   color: #E977AC;
   text-align: center; }
 
+h5 {
+  font-size: 40px;
+  color: white;
+  text-align: center; }
+
 p {
   font-family: "Baskerville";
   text-align: center;
@@ -288,6 +293,56 @@ footer {
   background-image: url(../imagenes/fondo.png);
   background-repeat: repeat-y;
   width: 100%; }
+
+/* Huevo roto */
+.huevo {
+  margin: 0px;
+  background-image: url(../imagenes/waves.svg);
+  background-size: cover;
+  width: 100%; }
+
+.imghuevo {
+  width: 100%; }
+
+.contenidohuevo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .contenidohuevo .huevo-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 100%; }
+    .contenidohuevo .huevo-item .buletrocherie {
+      width: 40px;
+      height: 40px;
+      padding-right: 5px; }
+    .contenidohuevo .huevo-item ul {
+      list-style: none; }
+      .contenidohuevo .huevo-item ul li {
+        padding: 20px; }
+
+/* Frase */
+.frase {
+  width: 100%;
+  height: 100px;
+  background-color: #E977AC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .frase h5 {
+    text-align: center; }
+
+/* Imagen rotada */
+.huevo2 {
+  margin: 0px;
+  background-image: url(../imagenes/waves2.svg);
+  background-size: cover;
+  width: 100%;
+  height: 150px; }
 
 /* Conocenos - imagen de fondo */
 .creadores h1 {
