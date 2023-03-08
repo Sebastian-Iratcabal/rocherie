@@ -1,0 +1,14 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr; /*8fr en total*/
+    grid-template-areas:
+        "header header header header header"
+        ". main main main ."
+        ". main main main ."
+        "footer footer footer footer footer"
+        ;
+}
+
+main {
+    grid-area: main;
+}

@@ -1,0 +1,54 @@
+header {
+    grid-area: header;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+/* Menú principal */
+
+.fondoheader {
+    background-image: url(../imagenes/fondo.png);
+    background-repeat: none;
+    background-size: cover;
+    padding: 10px;
+    text-align: center;
+    img {
+        width: 250px;
+    }    
+}
+
+.menu {
+    background-image: linear-gradient(to bottom right, $primary-color, #FFDCF4);
+    ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;   
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        li {
+            display: flex;
+            display: inline-block;
+            a {
+                color: white;
+                display: block;
+                padding: 10px 20px;
+                text-decoration: none;
+                font-family: 'Poppins', sans-serif;
+                font-style: bold;
+                font-size: 16px;
+                &:hover {
+                    background-color: white;
+                    border-radius: 5px;
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}
+
+.navbar-toggler {
+    border: solid white;   
+}

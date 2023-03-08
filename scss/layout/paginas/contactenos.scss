@@ -1,0 +1,104 @@
+/* Contactanos */
+
+.contactanos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/fondocontactenos.png);
+    margin: 10px;
+    background-repeat: none;
+    background-size: cover;
+    height: 400px;
+}
+
+.boton {
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-size: 20px;
+    color:white;
+    background-color: $primary-color;
+    border: 0px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.flex-container-contactanos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: cover;
+    height: 20px;
+}
+
+.linea-seccion {
+    height:6px;
+    background-color: $primary-color;
+    border:0px;
+    width: cover;
+    margin: 10px;
+}
+
+/* Formulario de Contactenos */
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    background-color: $primary-color;
+    padding: 30px;
+    margin: 0px auto 50px auto;
+    border-radius: 10px;
+}
+
+.campos {
+    width: 600px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.enviar {
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-size: 20px;
+    color: $primary-color;
+    background-color: white;
+    border: 1px;
+    border-radius: 10px;
+    width: 200px;
+    margin: 30px auto 30px auto;
+    padding: 0px;
+}
+
+.formulario p {
+    font-size: 14px;
+    color: white;
+}
+
+/* Media Query Formulario */
+
+@media (max-width: 756px) {
+    .formulario {
+        width: 100%;
+        padding: 5px;
+    }
+}
+    
+@media (max-width: 756px) {
+    .campos {
+        width: 250px;
+        padding: 10px;
+        margin: 5px;
+    }
+}
