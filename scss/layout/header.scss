@@ -18,8 +18,11 @@ header {
     }    
 }
 
+
+
 .menu {
     background-image: linear-gradient(to bottom right, $primary-color, #FFDCF4);
+
     ul {
         list-style: none;
         margin: 0px;
@@ -50,5 +53,5 @@ header {
 }
 
 .navbar-toggler {
-    border: solid white;   
+    border: solid white;
 }

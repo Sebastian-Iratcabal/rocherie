@@ -5,7 +5,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins"; }
 
 li, a {
-  font-family: "Baskerville"; }
+  font-family: "Baskerville";
+  font-size: 20px; }
 
 h1 {
   font-size: 40px;
@@ -356,11 +357,43 @@ footer {
   background-repeat: repeat-y;
   width: 100%; }
 
-.cajauniverso .valores {
-  padding: 20px;
-  border-radius: 10px; }
-  .cajauniverso .valores img {
+.cajauniverso {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center; }
+  .cajauniverso .mision {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
     border-radius: 10px; }
+    .cajauniverso .mision img {
+      border-radius: 10px; }
+  .cajauniverso .vision {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px; }
+    .cajauniverso .vision img {
+      border-radius: 10px; }
+  .cajauniverso .valores {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px; }
+    .cajauniverso .valores img {
+      border-radius: 10px; }
+
+/* Media Query para invertir orden de Vision en mobile */
+@media (max-width: 767px) {
+  .cajauniverso .vision {
+    flex-direction: column-reverse; } }
 
 /* Contactanos */
 .contactanos {
