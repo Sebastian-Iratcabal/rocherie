@@ -22,7 +22,15 @@ header {
 
 .menu {
     background-image: linear-gradient(to bottom right, $primary-color, #FFDCF4);
-
+    .container-fluid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        .navbar-toggler {
+            border: solid white;
+        }
+    }
     ul {
         list-style: none;
         margin: 0px;
@@ -52,6 +60,3 @@ header {
     }
 }
 
-.navbar-toggler {
-    border: solid white;
-}
