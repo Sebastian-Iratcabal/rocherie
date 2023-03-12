@@ -13,7 +13,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="../css/main.css">
-        <title>Contactenos - Rocherie</title>
+        <title>Chocolates - Rocherie</title>
     </head>
 
     <body>
@@ -56,37 +56,96 @@
         </header>
 
         <main>
-            <!-- Bienvenidos -->
+            <!-- Desayunos y Meriendas -->
             <div>    
-                <h1 class="animate__animated animate__zoomIn">¡Esperamos tu mensaje!</h1>
-                <p>Ya estás un paso mas cerca de hacer realidad tu proyecto</p>
+                <h1 class="animate__animated animate__zoomIn">Desayunos y Meriendas</h1>
+                <p>Para soprender a uno o a varios</p>
+            </div>
+            
+            <!-- Selector de Cajas -->
+
+            <div class="cajadesayuno">
+                <div class="item-desayuno">
+                    <h4>Elejí tu caja</h4>
+                    <p>Armamos un desayuno o merienda a tu medida.</p>
+                </div>
+                <div class="item-desayuno">
+                    <nav class="menu-desayuno">
+                        <ul class="menu-item-desayuno">
+                            <li onclick="openCity('mediana' , this)" id="defaultOpen">Mediana</li>
+                            <li onclick="openCity('grande' , this)">Grande</li>
+                            <li onclick="openCity('supergrande' , this)">Super grande</li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
 
-            <!-- Formulario -->
+            <div id="mediana" class="tabcontent">
+                <img src="../imagenes/desayuno1.jpg" alt="Caja desayuno">
+                <div class="cajacontenedora">
+                    <h6>Contenido "Caja Mediana"</h6>
+                    <ul>
+                        <li>3 medialunas</li>
+                        <li>4 Tostadas</li>
+                        <li>2 Mermeladas</li>
+                        <li>1 Queso crema</li>
+                        <li>1 Budín</li>
+                        <li>1 Cookie</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="grande" class="tabcontent">
+                <img src="../imagenes/desayuno2.jpg" alt="Caja desayuno">
+                <div class="cajacontenedora">
+                    <h6>Contenido "Caja Grande"</h6>
+                    <ul>
+                        <li>6 medialunas</li>
+                        <li>8 Tostadas</li>
+                        <li>3 Mermeladas</li>
+                        <li>2 Queso crema</li>
+                        <li>2 Budín</li>
+                        <li>2 Cookie</li>
+                        <li>1 Mini Torta</li>
+                    </ul>
+                </div>
+            </div>      
+            <div id="supergrande" class="tabcontent">
+                <img src="../imagenes/desayuno3.jpg" alt="Caja desayuno">
+                <div class="cajacontenedora">
+                    <h6>Contenido "Caja Super Grande"</h6>
+                    <ul>
+                        <li>8 medialunas</li>
+                        <li>8 Tostadas</li>
+                        <li>4 Mermeladas</li>
+                        <li>2 Queso crema</li>
+                        <li>2 Budín</li>
+                        <li>2 Cookie</li>
+                        <li>4 Macarons</li>
+                        <li>2 Mini Tortas</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <img src="../imagenes/waves2.svg">
+            </div>
+
+            <!-- Línea sección -->
+
+            <div class="linea-seccion"></div>
+
+            <!-- Contactanos -->        
             <section>
-                <div class="formulario">
-                    <div class="campos">
-                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">                        
-                    </div>
-                    <div class="campos">
-                        <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="Télefono">                        
-                    </div>
-                    <div class="campos">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su email">                        
-                    </div>
-                    <div class="campos">
-                        <label for="exampleFormControlTextarea1" class="form-label">Fecha del evento:</label>
-                        <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="Fecha de evento">                        
-                    </div>
-                    <div class="campos">
-                        <label for="exampleFormControlTextarea1" class="form-label">Tu Mensaje:</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="15"></textarea>                        
-                    </div>
-                    <a>
-                        <button type="submit" class="enviar">Enviar</button>
+                <div class="contactanos">
+                    <a href="contactenos.html">
+                        <button class="boton">+ Contactanos</button>
                     </a>
                 </div>
             </section>
+
+            <!-- Línea sección -->
+
+            <div class="linea-seccion"></div>
 
         </main>
 
@@ -95,7 +154,7 @@
             <div class="logo-footer">
                 <nav id="item-footer">
                     <ul>
-                        <li><a href="contactenos.html">Contactanos</a></li>
+                        <li><a href="../paginas/contactenos.html">Contactanos</a></li>
                         <li><a href="preguntasfrecuentes.html">Preguntas Frecuentes</a></li>
                     </ul>
                 </nav>
@@ -108,11 +167,10 @@
             </div>
         </footer>
 
-
     <!-- Scrip Bootstrap -->    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
+    <script src="../js/cosas.js"></script>
     </body>
 
 </html>

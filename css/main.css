@@ -34,6 +34,11 @@ h5 {
   color: white;
   text-align: center; }
 
+h6 {
+  font-size: 20px;
+  color: white;
+  text-align: center; }
+
 p {
   font-family: "Baskerville";
   text-align: center;
@@ -298,6 +303,79 @@ footer {
   background-image: url(../imagenes/fondo.png);
   background-repeat: repeat-y;
   width: 100%; }
+
+.cajadesayuno {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(../imagenes/waves.svg);
+  background-position: bottom;
+  background-repeat: no-repeat; }
+  .cajadesayuno .item-desayuno {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 49%;
+    height: 300px; }
+    .cajadesayuno .item-desayuno .menu-desayuno {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .cajadesayuno .item-desayuno .menu-desayuno ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center; }
+        .cajadesayuno .item-desayuno .menu-desayuno ul li {
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: left;
+          padding: 10px 50px;
+          border: 2px solid #E977AC;
+          border-radius: 10px;
+          margin: 5px; }
+          .cajadesayuno .item-desayuno .menu-desayuno ul li:hover {
+            background-color: #E977AC;
+            font-style: bold; }
+          .cajadesayuno .item-desayuno .menu-desayuno ul li:active {
+            background-color: rgba(13, 110, 253, 0.25); }
+
+/* Botones de selector de cajas */
+.tabcontent {
+  color: white;
+  display: none;
+  text-align: center;
+  width: 6fr;
+  height: 950px; }
+  .tabcontent img {
+    width: 100%; }
+  .tabcontent .cajacontenedora {
+    border: 2px dotted white;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 20px; }
+
+/* Botones de selector de caja */
+#mediana {
+  background-color: #E977AC; }
+
+#grande {
+  background-color: #E977AC; }
+
+#supergrande {
+  background-color: #E977AC; }
+
+@media (max-width: 1000px) {
+  .cajadesayuno {
+    flex-direction: column; }
+    .cajadesayuno .item-desayuno {
+      width: 100%; }
+      .cajadesayuno .item-desayuno ul li {
+        justify-content: center; } }
 
 /* Huevo roto */
 .huevo {
