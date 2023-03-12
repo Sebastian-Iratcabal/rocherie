@@ -51,7 +51,7 @@
     display: none;
     text-align: center;
     width: 6fr;
-    height: 950px;
+    height: 850px;
     img {
         width: 100%;
     }
@@ -60,6 +60,22 @@
         border-radius: 10px;
         margin: 50px;
         padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        .detalle-caja {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            ul {
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 20px 50px;
+            }
+        }
     }
 }
 
