@@ -273,6 +273,8 @@ footer {
     padding: 30px;
     border: 2px dotted #E977AC;
     border-radius: 10px; }
+  .contenidosecciones .imgsecciones {
+    object-fit: cover; }
 
 /* Galeria de tortas tradicionales */
 .tradicionales-secciones {
