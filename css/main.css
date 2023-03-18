@@ -277,23 +277,18 @@ footer {
 /* Galeria de tortas tradicionales */
 .tradicionales-secciones {
   margin: 30px 0px 30px 0px; }
-
-.img-seccion-tradicionales {
-  width: 100%;
-  border-radius: 10px; }
-
-.contenido-tradicionales {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between; }
-
-.contenido-tradicionales h4 {
-  padding: 20px 0px 0px 0px; }
-
-.contenido-tradicionales p {
-  padding: 0px 0px 20px 0px;
-  text-align: left; }
+  .tradicionales-secciones .contenido-tradicionales {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .tradicionales-secciones .contenido-tradicionales h4 {
+      padding: 20px 0px 20px 0px; }
+    .tradicionales-secciones .contenido-tradicionales p {
+      padding: 0px 0px 20px 0px; }
+    .tradicionales-secciones .contenido-tradicionales .img-seccion-tradicionales {
+      width: 100%;
+      border-radius: 10px; }
 
 /* Carousel */
 .carousel-item img {
