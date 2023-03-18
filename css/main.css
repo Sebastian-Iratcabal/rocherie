@@ -58,8 +58,10 @@ header {
   background-size: cover;
   padding: 10px;
   text-align: center; }
-  .fondoheader img {
+  .fondoheader .isologotipo {
     width: 250px; }
+  .fondoheader .isotipo {
+    display: none; }
 
 .menu {
   background-image: linear-gradient(to bottom right, #E977AC, #FFDCF4); }
@@ -93,6 +95,20 @@ header {
           background-color: white;
           border-radius: 5px;
           color: #E977AC; }
+
+/* Ocultar isologotipo y aparece isotipo en Mobile */
+@media (max-width: 767px) {
+  .fondoheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .fondoheader .isologotipo {
+      display: none; }
+    .fondoheader .isotipo {
+      display: flex;
+      width: 80px;
+      height: 80px; } }
 
 body {
   display: grid;

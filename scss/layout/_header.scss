@@ -13,8 +13,11 @@ header {
     background-size: cover;
     padding: 10px;
     text-align: center;
-    img {
+    .isologotipo {
         width: 250px;
+    }
+    .isotipo {
+        display: none;
     }    
 }
 
@@ -60,3 +63,22 @@ header {
     }
 }
 
+
+/* Ocultar isologotipo y aparece isotipo en Mobile */
+
+@media (max-width: 767px) {
+    .fondoheader {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        .isologotipo {
+            display: none;
+        }
+        .isotipo {
+            display: flex;
+            width: 80px;
+            height: 80px;
+        }    
+    }
+}
