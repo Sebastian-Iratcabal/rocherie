@@ -317,6 +317,40 @@ footer {
   background-repeat: repeat-y;
   width: 100%; }
 
+/* Galeria de tortas tradicionales */
+.tartas-secciones {
+  margin: 30px 0px 0px 0px; }
+  .tartas-secciones .contenido-tradicionales {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .tartas-secciones .contenido-tradicionales h4 {
+      padding: 20px 0px 20px 0px; }
+    .tartas-secciones .contenido-tradicionales p {
+      padding: 0px 0px 20px 0px; }
+    .tartas-secciones .contenido-tradicionales .img-seccion-tradicionales {
+      width: 100%;
+      border-radius: 10px; }
+
+/* Galeria de tortas tradicionales */
+.shot-secciones {
+  background-color: #E977AC; }
+  .shot-secciones .contenido-tradicionales {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .shot-secciones .contenido-tradicionales h4 {
+      padding: 20px 0px 20px 0px;
+      color: white; }
+    .shot-secciones .contenido-tradicionales p {
+      padding: 0px 0px 20px 0px;
+      color: white; }
+    .shot-secciones .contenido-tradicionales .img-seccion-tradicionales {
+      width: 100%;
+      border-radius: 10px; }
+
 .cajadesayuno {
   display: flex;
   flex-direction: row;
