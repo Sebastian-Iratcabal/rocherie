@@ -12,7 +12,8 @@
         flex-wrap: wrap;
         justify-content: center;
         width: 49%;
-        height: 300px;
+        height: 400px;
+        padding: 20px;
         .menu-desayuno {
             display: flex;
             flex-direction: column;
@@ -98,3 +99,42 @@
             }
         }
     }
+
+
+  /* Arreglo en texto princial de Boxes y botnoes de tamaño de cajas */
+
+    @media (max-width: 1000px) {
+    .cajadesayuno {
+        .item-desayuno {
+            height: 250px;
+            padding: 20px 20px 0px 20px;
+        }
+    }
+}
+
+@media (max-width: 812px) {
+    .cajadesayuno {
+        .item-desayuno {
+            height: 300px;
+            padding: 20px 20px 0px 20px;
+        }
+    }
+}
+
+@media (max-width: 612px) {
+    .cajadesayuno {
+        .item-desayuno {
+            height: 400px;
+            padding: 20px 20px 0px 20px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .cajadesayuno {
+        .item-desayuno {
+            height: 450px;
+            padding: 20px 20px 0px 20px;
+        }
+    }
+}
