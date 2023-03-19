@@ -357,7 +357,8 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   border: 2px dotted #E977AC;
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin: 0px 0px 50px 0px; }
   .cajadesayuno .item-desayuno {
     display: flex;
     flex-direction: column;
