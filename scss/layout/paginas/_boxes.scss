@@ -3,9 +3,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url(../imagenes/waves.svg);
-    background-position: bottom;
-    background-repeat: no-repeat;
+    border: 2px dotted $primary-color;
+    border-radius: 10px;
     .item-desayuno {
         display: flex;
         flex-direction: column;
