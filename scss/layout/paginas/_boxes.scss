@@ -52,7 +52,7 @@
     display: none;
     text-align: center;
     width: 6fr;
-    height: 850px;
+    height: 1300px;
     img {
         width: 100%;
     }
@@ -65,6 +65,9 @@
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
+        p {
+            color: $tertiary-color;
+        }
         .detalle-caja {
             display: flex;
             flex-direction: row;
@@ -78,6 +81,64 @@
             }
         }
     }
+    /* Formulario de Contactenos */
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: $primary-color;
+        padding: 30px;
+        margin: 0px auto 50px auto;
+        border-radius: 10px;
+        .campos {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 5px;
+            margin: 0px 0px 10px 0px;
+            border: 1px solid;
+            border-radius: 5px;
+            border-color: white;
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+        }
+        .eleccion {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 5px;
+            margin: 10px 0px 10px 0px;
+            border: 1px solid;
+            border-radius: 5px;
+            border-color: white;
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            .elemento {
+                padding: 0px 30px 0px 5px;
+            }
+        }
+        .enviar {
+            font-family: 'Poppins', sans-serif;
+            font-style: bold;
+            font-size: 20px;
+            color: $primary-color;
+            background-color: white;
+            border: 1px;
+            border-radius: 10px;
+            width: 200px;
+            margin: 30px auto 30px auto;
+            padding: 0px;
+        }
+    }
 }
 
   /* Botones de selector de caja */ 
@@ -86,28 +147,28 @@
   #supergrande {background-color:$primary-color;}
 
 
-  @media (max-width: 1000px) {
-    .cajadesayuno {
-        flex-direction: column;
-        .item-desayuno {
-            width: 100%;
-                ul {
-                    li {
-                        justify-content: center;
-                    }
+@media (max-width: 1000px) {
+.cajadesayuno {
+    flex-direction: column;
+    .item-desayuno {
+        width: 100%;
+            ul {
+                li {
+                    justify-content: center;
                 }
             }
         }
     }
+}
 
 
-  /* Arreglo en texto princial de Boxes y botnoes de tamaño de cajas */
+/* Arreglo en texto princial de Boxes y botnoes de tamaño de cajas */
 
-    @media (max-width: 1000px) {
-    .cajadesayuno {
-        .item-desayuno {
-            height: 250px;
-            padding: 20px 20px 0px 20px;
+@media (max-width: 1000px) {
+.cajadesayuno {
+    .item-desayuno {
+        height: 250px;
+        padding: 20px 20px 0px 20px;
         }
     }
 }

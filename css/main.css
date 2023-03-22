@@ -402,7 +402,8 @@ footer {
   display: none;
   text-align: center;
   width: 6fr;
-  height: 850px; }
+  height: 1300px;
+  /* Formulario de Contactenos */ }
   .tabcontent img {
     width: 100%; }
   .tabcontent .cajacontenedora {
@@ -414,6 +415,8 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center; }
+    .tabcontent .cajacontenedora p {
+      color: white; }
     .tabcontent .cajacontenedora .detalle-caja {
       display: flex;
       flex-direction: row;
@@ -424,6 +427,58 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         padding: 20px 50px; }
+  .tabcontent .formulario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #E977AC;
+    padding: 30px;
+    margin: 0px auto 50px auto;
+    border-radius: 10px; }
+    .tabcontent .formulario .campos {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 5px;
+      margin: 0px 0px 10px 0px;
+      border: 1px solid;
+      border-radius: 5px;
+      border-color: white;
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px; }
+    .tabcontent .formulario .eleccion {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 5px;
+      margin: 10px 0px 10px 0px;
+      border: 1px solid;
+      border-radius: 5px;
+      border-color: white;
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px; }
+      .tabcontent .formulario .eleccion .elemento {
+        padding: 0px 30px 0px 5px; }
+    .tabcontent .formulario .enviar {
+      font-family: 'Poppins', sans-serif;
+      font-style: bold;
+      font-size: 20px;
+      color: #E977AC;
+      background-color: white;
+      border: 1px;
+      border-radius: 10px;
+      width: 200px;
+      margin: 30px auto 30px auto;
+      padding: 0px; }
 
 /* Botones de selector de caja */
 #mediana {
@@ -642,22 +697,17 @@ footer {
     border-color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 18px; }
-
-.enviar {
-  font-family: 'Poppins', sans-serif;
-  font-style: bold;
-  font-size: 20px;
-  color: #E977AC;
-  background-color: white;
-  border: 1px;
-  border-radius: 10px;
-  width: 200px;
-  margin: 30px auto 30px auto;
-  padding: 0px; }
-
-.formulario p {
-  font-size: 14px;
-  color: white; }
+  .formulario .enviar {
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-size: 20px;
+    color: #E977AC;
+    background-color: white;
+    border: 1px;
+    border-radius: 10px;
+    width: 200px;
+    margin: 30px auto 30px auto;
+    padding: 0px; }
 
 /* Media Query Formulario */
 @media (max-width: 756px) {
