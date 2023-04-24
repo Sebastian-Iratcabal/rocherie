@@ -55,7 +55,7 @@
                                 <a class="nav-link" href="especiales.html">Especiales</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="boxes.html">Boxes</a>
+                                <a class="nav-link" href="#">Boxes</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="chocolates.html">Chocolates</a>
@@ -84,28 +84,28 @@
 
             <!-- Formulario -->
             <section>
-                <div class="formulario">
+                <form action="../php/enviar.php" method="post" class="formulario">
                     <div class="campos">
-                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">                        
+                        <input type="name" name="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido" required>                        
                     </div>
                     <div class="campos">
-                        <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="Télefono">                        
+                        <input type="phone" name="telefono" class="form-control" id="exampleFormControlInput1" placeholder="Télefono" required>                        
                     </div>
                     <div class="campos">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su email">                        
+                        <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su email" required>                        
                     </div>
                     <div class="campos">
                         <label for="exampleFormControlTextarea1" class="form-label">Fecha del evento:</label>
-                        <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="Fecha de evento">                        
+                        <input type="date" name="fecha" class="form-control" id="exampleFormControlInput1" placeholder="Fecha de evento" required>                        
                     </div>
                     <div class="campos">
                         <label for="exampleFormControlTextarea1" class="form-label"> Escribe aquí tu mensaje</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="15"></textarea>                        
+                        <textarea name="mensaje" class="form-control" id="exampleFormControlTextarea1" rows="15" required></textarea>                        
                     </div>
                     <a>
                         <button type="submit" class="enviar">Enviar</button>
                     </a>
-                </div>
+                </form>
             </section>
 
             <!-- Línea sección -->
